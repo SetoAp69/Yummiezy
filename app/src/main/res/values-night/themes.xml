@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Yummiezy" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+    <style name="Widget.App.Button.OulinedButton.IconOnly.Filled" parent="Widget.App.Button.OutlinedButton.IconOnly">
+        <item name="backgroundTint">@color/light_purple</item>
+        <item name="strokeColor">@color/light_purple</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="strokeWidth">3dp </item>
+
+
+    </style>
+    <style name="Widget.App.Button.OulinedButton.IconOnly.Filled.Middle" parent="Widget.App.Button.OulinedButton.IconOnly.Filled">
+        <item name="backgroundTint">@color/pale_purple</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Title.Main" parent="TextAppearance.AppCompat.Title">
+        <item name="android:layout_gravity"></item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

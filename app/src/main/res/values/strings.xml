@@ -1,0 +1,510 @@
+<resources>
+    <string name="app_name">Yummiezy</string>
+    <string name="number_bullet">•</string>
+    <string name="my_name">Seto Apriawan</string>
+    <string name="my_email">SetoApriawan60@gmail.com</string>
+    <string name="instruction_label">Instructions</string>
+    <string name="ingredient_label">Ingredients</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+
+    <array name="recipe_array">
+        <item>@array/recipe_1_ingredient</item>
+        <item>@array/recipe_2_ingredient</item>
+        <item>@array/recipe_3_ingredient</item>
+        <item>@array/recipe_4_ingredient</item>
+        <item>@array/recipe_5_ingredient</item>
+        <item>@array/recipe_6_ingredient</item>
+        <item>@array/recipe_7_ingredient</item>
+        <item>@array/recipe_8_ingredient</item>
+        <item>@array/recipe_9_ingredient</item>
+        <item>@array/recipe_10_ingredient</item>
+    </array>
+    <string-array name="recipe_1_ingredient">
+        <item>kg chicken, cut into pieces</item>
+        <item>cup plain yogurt</item>
+        <item>tablespoons ginger-garlic paste</item>
+        <item>teaspoon turmeric powder</item>
+        <item>teaspoon red chili powder</item>
+        <item>teaspoon garam masala</item>
+        <item>cups basmati rice, soaked for 30 minutes</item>
+        <item>cups water for boiling rice</item>
+        <item>bay leaves</item>
+        <item>green cardamom pods</item>
+        <item>cloves</item>
+        <item>inch cinnamon stick</item>
+        <item>teaspoon Salt to taste</item>
+        <item>medium-sized onions, thinly sliced and fried until golden brown</item>
+        <item>cup chopped tomatoes</item>
+        <item>cup cooking oil or ghee</item>
+        <item>teaspoon cumin seeds</item>
+        <item>bay leaves</item>
+        <item>green cardamom pods</item>
+        <item>cloves</item>
+        <item>inch cinnamon stick</item>
+        <item>tablespoon ginger-garlic paste</item>
+        <item>teaspoon turmeric powder</item>
+        <item>teaspoon red chili powder</item>
+        <item>teaspoon garam masala</item>
+        <item>Fresh coriander and mint leaves for garnish</item>
+    </string-array>
+    <string-array name="recipe_2_ingredient">
+        <item>oz fettuccine pasta (halal-certified)</item>
+        <item>lb halal chicken breast, cut into bite-sized pieces</item>
+        <item>tablespoons olive oil</item>
+        <item>cloves garlic, minced</item>
+        <item>cup halal chicken broth</item>
+        <item>cup heavy cream</item>
+        <item>cup grated Parmesan cheese</item>
+        <item>Salt and pepper to taste</item>
+        <item>Fresh parsley, chopped (for garnish)</item>
+    </string-array>
+    <string-array name="recipe_3_ingredient">
+        <item>lb boneless, skinless chicken thighs, cut into bite-sized pieces</item>
+        <item>cup soy sauce</item>
+        <item>cup honey</item>
+        <item>tablespoons ketchup</item>
+        <item>tablespoon olive oil</item>
+        <item>cloves garlic, minced</item>
+        <item>teaspoon ginger, grated</item>
+        <item>tablespoon cornstarch</item>
+        <item>tablespoons water</item>
+    </string-array>
+    <string-array name="recipe_4_ingredient">
+        <item>cups cooked jasmine rice, cooled</item>
+        <item>tablespoons vegetable oil</item>
+        <item>large shallots, finely chopped</item>
+        <item>cloves garlic, minced</item>
+        <item>eggs, beaten</item>
+        <item>medium-sized carrots, diced</item>
+        <item>cup frozen peas</item>
+        <item>chicken breast, cooked and shredded</item>
+        <item>tablespoons soy sauce</item>
+        <item>teaspoons sweet soy sauce (kecap manis)</item>
+        <item>teaspoons shrimp paste (terasi), optional</item>
+        <item>teaspoon white pepper</item>
+        <item>green onions, sliced (for garnish)</item>
+
+    </string-array>
+    <string-array name="recipe_5_ingredient">
+        <item>cups flat rice noodles, soaked and drained</item>
+        <item>ounces firm tofu, cubed</item>
+        <item>tablespoons vegetable oil</item>
+        <item>cloves garlic, minced</item>
+        <item>egg, lightly beaten</item>
+        <item>cup bean sprouts</item>
+        <item>cup shrimp, cooked and peeled</item>
+        <item>tablespoons fish sauce</item>
+        <item>tablespoons tamarind paste</item>
+        <item>tablespoon sugar</item>
+        <item>cup peanuts, crushed</item>
+        <item>lime, cut into wedges</item>
+        <item>cup fresh cilantro, chopped</item>
+
+    </string-array>
+    <string-array name="recipe_6_ingredient">
+        <item>pounds chicken thighs and drumsticks</item>
+        <item>cup soy sauce</item>
+        <item>cup white vinegar</item>
+        <item>cup water</item>
+        <item>cup brown sugar</item>
+        <item>cup garlic cloves, minced</item>
+        <item>bay leaves</item>
+        <item>teaspoon peppercorns</item>
+        <item>teaspoon salt</item>
+        <item>green onions, sliced (for garnish)</item>
+        <item>cooked white rice (for serving)</item>
+
+    </string-array>
+
+    <array name="recipe_amount_array">
+        <item>@array/recipe_1_amount</item>
+        <item>@array/recipe_1_amount</item>
+        <item>@array/recipe_2_amount</item>
+        <item>@array/recipe_3_amount</item>
+        <item>@array/recipe_4_amount</item>
+        <item>@array/recipe_5_amount</item>
+        <item>@array/recipe_6_amount</item>
+        <item>@array/recipe_7_amount</item>
+        <item>@array/recipe_8_amount</item>
+        <item>@array/recipe_9_amount</item>
+        <item>@array/recipe_10_amount</item>
+    </array>
+    <string-array name="recipe_3_amount">
+        <item>1</item> <!-- lb boneless, skinless chicken thighs, cut into bite-sized pieces -->
+        <item>0.25</item> <!-- cup soy sauce -->
+        <item>0.25</item> <!-- cup honey -->
+        <item>2</item> <!-- tablespoons ketchup -->
+        <item>1</item> <!-- tablespoon olive oil -->
+        <item>2</item> <!-- cloves garlic, minced -->
+        <item>1</item> <!-- teaspoon ginger, grated -->
+        <item>1</item> <!-- tablespoon cornstarch -->
+        <item>2</item> <!-- tablespoons water -->
+
+    </string-array>
+    <string-array name="recipe_2_amount">
+        <item>8</item> <!-- oz fettuccine pasta (halal-certified) -->
+        <item>1</item> <!-- lb halal chicken breast, cut into bite-sized pieces -->
+        <item>2</item> <!-- tablespoons olive oil -->
+        <item>3</item> <!-- cloves garlic, minced -->
+        <item>1</item> <!-- cup halal chicken broth -->
+        <item>1</item> <!-- cup heavy cream -->
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="recipe_1_amount">
+        <item>1</item> <!-- kg chicken, cut into pieces -->
+        <item>1</item> <!-- cup plain yogurt -->
+        <item>2</item> <!-- tablespoons ginger-garlic paste -->
+        <item>1</item> <!-- teaspoon turmeric powder -->
+        <item>1</item> <!-- teaspoon red chili powder -->
+        <item>1</item> <!-- teaspoon garam masala -->
+        <item>2</item> <!-- cups basmati rice, soaked for 30 minutes -->
+        <item>4</item> <!-- cups water for boiling rice -->
+        <item>1</item> <!-- bay leaves -->
+        <item>4</item> <!-- green cardamom pods -->
+        <item>4</item> <!-- cloves -->
+        <item>2</item> <!-- 2-inch cinnamon stick -->
+        <item>1</item> <!-- teaspoon Salt to taste -->
+        <item>4</item> <!-- medium-sized onions, thinly sliced and fried until golden brown -->
+        <item>1</item> <!-- cup chopped tomatoes -->
+        <item>0.5</item> <!-- cup cooking oil or ghee -->
+        <item>1</item> <!-- teaspoon cumin seeds -->
+        <item>3</item> <!-- bay leaves -->
+        <item>5</item> <!-- green cardamom pods -->
+        <item>5</item> <!-- cloves -->
+        <item>2</item> <!-- 2-inch cinnamon stick -->
+        <item>1</item> <!-- tablespoon ginger-garlic paste -->
+        <item>1</item> <!-- teaspoon turmeric powder -->
+        <item>1</item> <!-- teaspoon red chili powder -->
+        <item>1</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="recipe_4_amount">
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="recipe_5_amount">
+        <item>0.25</item>
+        <item>8</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0.5</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0.5</item>
+        <item>0.25</item>
+        <item>0.5</item>
+    </string-array>
+    <string-array name="recipe_6_amount">
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0.5</item>
+        <item>0.25</item>
+        <item>1</item>
+        <item>0.25</item>
+        <item>0.25</item>
+        <item>3</item>
+        <item>2</item>
+
+    </string-array>
+
+
+    <array name="instruction_array">
+        <item>@array/recipe_1_instruction</item>
+        <item>@array/recipe_1_instruction</item>
+        <item>@array/recipe_2_instruction</item>
+        <item>@array/recipe_3_instruction</item>
+        <item>@array/recipe_4_instruction</item>
+        <item>@array/recipe_5_instruction</item>
+        <item>@array/recipe_6_instruction</item>
+        <item>@array/recipe_7_instruction</item>
+        <item>@array/recipe_8_instruction</item>
+        <item>@array/recipe_9_instruction</item>
+        <item>@array/recipe_10_instruction</item>
+    </array>
+
+    <string-array name="recipe_3_instruction">
+        <item>In a bowl, whisk together 1/4 cup soy sauce, 1/4 cup honey, and 2 tablespoons ketchup to make the sauce. Set aside.</item>
+        <item>In a large skillet or wok, heat 1 tablespoon of olive oil over medium-high heat.</item>
+        <item>Add 2 cloves of minced garlic and 1 teaspoon of grated ginger to the skillet. Sauté for about 1-2 minutes until fragrant.</item>
+        <item>Add the bite-sized pieces of 1 pound of boneless, skinless chicken thighs to the skillet. Cook until the chicken is browned and cooked through.</item>
+        <item>Pour the prepared sauce over the cooked chicken and stir to coat evenly.</item>
+        <item>In a small bowl, mix 1 tablespoon of cornstarch with 2 tablespoons of water to create a slurry. Add the slurry to the skillet and stir until the sauce thickens.</item>
+        <item>Garnish with sesame seeds and chopped green onions if desired.</item>
+        <item>Serve the Honey Chicken over rice or noodles.</item>
+
+    </string-array>
+
+    <string-array name="recipe_1_instruction">
+        <item>In a large bowl, mix together the yogurt, ginger-garlic paste, turmeric powder, red chili powder, garam masala, and salt. Add the chicken pieces to the marinade, ensuring they are well coated. Marinate for at least 2 hours or preferably overnight in the refrigerator. </item>
+        <item>In a large pot, bring water to a boil. Add salt, bay leaves, cardamom pods, cloves, and cinnamon stick.</item>
+        <item>Add the rinsed rice to the boiling water and cook until it is 70-80% cooked. The rice should still have a bite to it. Drain the water and set aside.</item>
+        <item>In a large, heavy-bottomed pan or pot, heat oil or ghee over medium heat.</item>
+        <item>Add cumin seeds, bay leaves, cardamom pods, cloves, and cinnamon stick. Sauté </item>
+        <item>Add sliced onions and fry until golden brown.</item>
+        <item>Add ginger-garlic paste and sauté until the raw smell disappears.</item>
+        <item>Add chopped tomatoes, turmeric powder, red chili powder, garam masala, and salt. </item>
+        <item>Cook until the tomatoes are soft and the oil starts to separate from the masala.</item>
+        <item>Preheat the oven to 350°F (180°C).</item>
+        <item>In the same pan with the masala, layer half of the partially cooked rice.</item>
+        <item>Place the marinated chicken over the rice.</item>
+        <item>Top with the remaining rice. Sprinkle fried onions, fresh coriander, and mint leaves over the rice.</item>
+        <item>Cover the pan tightly with aluminum foil or a lid.</item>
+        <item>Bake in the preheated oven for 30-40 minutes, allowing the flavors to meld and the chicken to cook completely.</item>
+        <item>Once done, gently fluff the biryani with a fork, mixing the layers.</item>
+        <item>Serve hot, garnished with additional fried onions, fresh coriander, and mint leaves.</item>
+
+    </string-array>
+    <string-array name="recipe_2_instruction">
+        <item>Cook the fettuccine pasta according to the package instructions. Drain and set aside.</item>
+        <item>In a large skillet, heat 2 tablespoons of olive oil over medium heat. Add 3 cloves of minced garlic and sauté for about 1-2 minutes until fragrant.</item>
+        <item>Add 1 pound of halal chicken pieces to the skillet and cook until they are no longer pink in the center. Season with salt and pepper to taste.</item>
+        <item>Pour in 1 cup of halal chicken broth and bring it to a simmer. Allow it to cook for a few minutes to reduce slightly.</item>
+        <item>Lower the heat and add 1 cup of heavy cream to the skillet. Stir well to combine.</item>
+        <item>Gradually sprinkle in 1 cup of grated Parmesan cheese, stirring constantly to melt and incorporate the cheese into the sauce. Continue stirring until the sauce is smooth and creamy.</item>
+        <item>Adjust the seasoning with salt and pepper to taste.</item>
+        <item>Add the cooked fettuccine pasta to the skillet and toss until the pasta is coated evenly with the Alfredo sauce.</item>
+        <item>Serve the Halal Chicken Alfredo hot, garnished with chopped fresh parsley.</item>
+    </string-array>
+    <string-array name="recipe_4_instruction">
+        <item>Heat 2 tablespoons of vegetable oil in a large wok or skillet over medium-high heat.</item>
+        <item>Add the finely chopped shallots and minced garlic. Sauté until fragrant.</item>
+        <item>Push the shallots and garlic to one side of the wok, and pour the beaten eggs into the other side. Scramble the eggs until they are fully cooked.</item>
+        <item>Add the diced carrots, frozen peas, and shredded chicken to the wok. Stir-fry until the vegetables are tender.</item>
+        <item>Push the ingredients to the side of the wok, add a bit more oil if needed, and then add the cooled cooked jasmine rice. Stir-fry the rice until it is well combined with the other ingredients.</item>
+        <item>Combine soy sauce, sweet soy sauce, shrimp paste (if using), and white pepper. Pour the sauce over the rice and stir-fry to evenly coat the rice.</item>
+        <item>Garnish with sliced green onions and serve the Indonesian Fried Rice hot.</item>
+        <item>Enjoy your delicious Nasi Goreng!</item>
+
+    </string-array>
+    <string-array name="recipe_5_instruction">
+        <item>Soak the flat rice noodles according to package instructions, then drain and set aside.</item>
+        <item>In a wok or large skillet, heat 2 tablespoons of vegetable oil over medium-high heat.</item>
+        <item>Add the minced garlic and cubed tofu. Stir-fry until the tofu is golden brown.</item>
+        <item>Push the tofu to one side of the wok and pour the lightly beaten egg into the other side. Scramble the egg until it is fully cooked.</item>
+        <item>Add the soaked and drained rice noodles to the wok, followed by bean sprouts and cooked shrimp. Stir-fry until well combined.</item>
+        <item>In a small bowl, mix fish sauce, tamarind paste, and sugar. Pour the sauce over the noodle mixture and stir-fry until everything is evenly coated.</item>
+        <item>Sprinkle crushed peanuts over the Pad Thai and toss to combine.</item>
+        <item>Serve the Pad Thai hot, garnished with lime wedges and chopped cilantro.</item>
+        <item>Enjoy your delicious Pad Thai!</item>
+
+    </string-array>
+
+    <string-array name="recipe_6_instruction">
+        <item>In a bowl, combine soy sauce, white vinegar, water, brown sugar, minced garlic, bay leaves, peppercorns, and salt to make the marinade.</item>
+        <item>Place chicken thighs and drumsticks in a large bowl or resealable plastic bag. Pour the marinade over the chicken, ensuring its well-coated. Marinate in the refrigerator for at least 30 minutes or overnight for best results.</item>
+        <item>In a large skillet or pot, place the marinated chicken along with the marinade. Bring to a boil over medium-high heat.</item>
+        <item>Reduce the heat to low, cover, and simmer for about 30-40 minutes or until the chicken is fully cooked and tender.</item>
+        <item>Remove the lid and continue to simmer for an additional 10-15 minutes to allow the sauce to thicken.</item>
+        <item>Remove bay leaves and discard them. Serve the Chicken Adobo hot over cooked white rice.</item>
+        <item>Garnish with sliced green onions.</item>
+        <item>Enjoy your flavorful Chicken Adobo!</item>
+
+    </string-array>
+    <string-array name="recipe_7_ingredient">
+        <item>large eggs</item>
+        <item>English muffins, split and toasted</item>
+        <item>Canadian bacon slices</item>
+        <item>teaspoon white vinegar</item>
+        <item>teaspoon salt</item>
+        <item>cups spinach, sautéed</item>
+        <item>cup Hollandaise sauce</item>
+        <item>tablespoons chopped fresh chives (for garnish)</item>
+        <item>teaspoons black pepper (for garnish)</item>
+    </string-array>
+    <string-array name="recipe_7_amount">
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>3</item>
+        <item>1</item>
+        <item>4</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="recipe_7_instruction">
+        <item>Fill a large, shallow saucepan with about 2 inches of water. Add white vinegar and salt to the water and bring it to a simmer over medium heat.</item>
+        <item>While the water is heating, toast the English muffin halves and cook the Canadian bacon in a separate pan until lightly browned.</item>
+        <item>Once the water is simmering, create a gentle whirlpool in the center with a spoon. Carefully crack one egg into a small bowl and gently slide it into the swirling water. Repeat with the other egg. Poach the eggs for about 3 minutes for a soft yolk.</item>
+        <item>Using a slotted spoon, carefully lift each poached egg out of the water and drain excess water on a paper towel.</item>
+        <item>Assemble the Eggs Benedict by placing the toasted English muffin halves on a plate. Top each half with sautéed spinach, a slice of Canadian bacon, and a poached egg.</item>
+        <item>Drizzle Hollandaise sauce over the poached eggs.</item>
+        <item>Garnish with chopped fresh chives and a sprinkle of black pepper.</item>
+        <item>Serve the Eggs Benedict immediately and enjoy!</item>
+    </string-array>
+    <string-array name="recipe_8_ingredient">
+        <item>pounds boneless, skinless chicken thighs, cut into bite-sized pieces</item>
+        <item>cup plain yogurt</item>
+        <item>large onion, finely chopped</item>
+        <item>tablespoons butter</item>
+        <item>tablespoon ginger-garlic paste</item>
+        <item>teaspoon turmeric powder</item>
+        <item>teaspoon chili powder</item>
+        <item>teaspoon garam masala</item>
+        <item>cup tomato puree</item>
+        <item>cup heavy cream</item>
+        <item>cup cashew nuts, soaked and blended into a paste</item>
+        <item>teaspoon sugar</item>
+        <item>cup chopped cilantro (for garnish)</item>
+    </string-array>
+
+    <string-array name="recipe_8_amount">
+        <item>1.5</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0.5</item>
+        <item>1</item>
+        <item>0.5</item>
+        <item>0.25</item>
+        <item>0.25</item>
+        <item>1</item>
+        <item>0.5</item>
+    </string-array>
+
+    <string-array name="recipe_8_instruction">
+        <item>In a bowl, marinate the chicken with yogurt, turmeric powder, chili powder, and garam masala. Let it marinate for at least 30 minutes.</item>
+        <item>In a large skillet, melt butter over medium heat. Add finely chopped onions and sauté until golden brown.</item>
+        <item>Add ginger-garlic paste to the skillet and cook for another 2 minutes until fragrant.</item>
+        <item>Add the marinated chicken to the skillet. Cook until the chicken is browned and cooked through.</item>
+        <item>Stir in tomato puree and cook for 5 minutes.</item>
+        <item>Pour in the heavy cream and cashew nut paste. Stir well to combine.</item>
+        <item>Season with sugar and salt to taste. Simmer for 10-15 minutes until the sauce thickens.</item>
+        <item>Garnish with chopped cilantro and serve the Butter Chicken hot over rice or with naan.</item>
+        <item>Enjoy your delicious Butter Chicken!</item>
+    </string-array>
+
+    <string-array name="recipe_9_ingredient">
+        <item>lb boneless, skinless chicken thighs, cut into bite-sized pieces</item>
+        <item>cups potato starch (or cornstarch)</item>
+        <item>cup soy sauce</item>
+        <item>tablespoons sake</item>
+        <item>tablespoons mirin</item>
+        <item>cloves garlic, minced</item>
+        <item>teaspoon ginger, grated</item>
+        <item>teaspoon sugar</item>
+        <item>cup all-purpose flour</item>
+        <item>cup vegetable oil (for frying)</item>
+    </string-array>
+
+    <string-array name="recipe_9_amount">
+        <item>1</item>
+        <item>2</item>
+        <item>0.5</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="recipe_9_instruction">
+        <item>In a bowl, combine soy sauce, sake, mirin, minced garlic, grated ginger, and sugar to make the marinade.</item>
+        <item>Cut chicken thighs into bite-sized pieces and marinate them in the sauce for at least 30 minutes.</item>
+        <item>In a separate bowl, coat the marinated chicken with potato starch (or cornstarch) and all-purpose flour.</item>
+        <item>Heat vegetable oil in a deep fryer or large skillet to 350°F (180°C).</item>
+        <item>Fry the coated chicken pieces in batches until golden brown and cooked through, about 5-6 minutes per batch.</item>
+        <item>Remove the chicken from the oil and drain on paper towels.</item>
+        <item>Serve the Chicken Karaage hot with your favorite dipping sauce.</item>
+        <item>Enjoy your crispy and delicious Chicken Karaage!</item>
+    </string-array>
+
+    <string-array name="recipe_10_ingredient">
+        <item>lb ground beef</item>
+        <item>block firm tofu, cut into small cubes</item>
+        <item>cup chicken or beef broth</item>
+        <item>cup soy sauce</item>
+        <item>tablespoons chili bean paste (doubanjiang)</item>
+        <item>tablespoons fermented black beans, minced</item>
+        <item>tablespoon ginger, minced</item>
+        <item>tablespoon garlic, minced</item>
+        <item>tablespoons vegetable oil</item>
+        <item>tablespoon Sichuan peppercorns, crushed</item>
+        <item>green onions, chopped (for garnish)</item>
+        <item>tablespoons cornstarch mixed with 2 tablespoons water (for thickening)</item>
+        <item>teaspoon sugar</item>
+        <item>teaspoon sesame oil</item>
+    </string-array>
+
+    <string-array name="recipe_10_amount">
+        <item>1</item>
+        <item>1</item>
+        <item>0.5</item>
+        <item>0.5</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="recipe_10_instruction">
+        <item>In a bowl, mix together soy sauce, chili bean paste, and minced fermented black beans. Set aside.</item>
+        <item>Heat vegetable oil in a wok or skillet over medium-high heat. Add minced ginger, minced garlic, and crushed Sichuan peppercorns. Stir-fry for about 30 seconds until fragrant.</item>
+        <item>Add ground beef to the wok and cook until browned.</item>
+        <item>Pour the soy sauce mixture into the wok and stir well to coat the beef.</item>
+        <item>Add chicken or beef broth to the wok and bring to a simmer.</item>
+        <item>Gently add the cubed tofu to the wok and simmer for 5-7 minutes, allowing the tofu to absorb the flavors.</item>
+        <item>Stir in the cornstarch-water mixture to thicken the sauce.</item>
+        <item>Season with sugar and sesame oil. Stir to combine.</item>
+        <item>Garnish with chopped green onions and serve the Beef Mapo Tofu hot over rice.</item>
+        <item>Enjoy your flavorful and spicy Beef Mapo Tofu!</item>
+    </string-array>
+
+    <string-array name="recipe_title_array">
+        <item>Chicken Biryani</item>
+        <item>Chicken Alfredo</item>
+        <item>Honey Chicken</item>
+        <item>Indonesian Fried Rice</item>
+        <item>Pad Thai</item>
+        <item>Chicken Adobo</item>
+        <item>Egg Benedict</item>
+        <item>Butter Chicken</item>
+        <item>Karaage</item>
+        <item>Mapo Tofu</item>
+    </string-array>
+    <integer-array name="recipe_image">
+        <item>@drawable/biryani</item>
+        <item>@drawable/alfredo</item>
+        <item>@drawable/honey</item>
+        <item>@drawable/fried_rice</item>
+        <item>@drawable/pad_thai</item>
+        <item>@drawable/adobo</item>
+        <item>@drawable/benedict</item>
+        <item>@drawable/butter</item>
+        <item>@drawable/karaage</item>
+        <item>@drawable/mapo</item>
+    </integer-array>
+
+
+</resources>
